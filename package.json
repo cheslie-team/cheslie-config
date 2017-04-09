@@ -1,6 +1,6 @@
 {
   "name": "cheslie-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Global config for the cheslie ecosystem",
   "main": "config.js",
   "scripts": {
