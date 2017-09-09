@@ -22,6 +22,13 @@ var config = {
         name: 'cheslie-board'
       },
       port: 2206,
+    },
+    tournament: {
+      url: 'http://localhost',
+      app: {
+        name: 'cheslie-tourney'
+      },
+      port: 2208,
     }
   },
 
@@ -44,6 +51,13 @@ var config = {
       url: 'http://cheslie-board.herokuapp.com',
       app: {
         name: 'cheslie-board'
+      },
+      port: process.env.PORT,
+    },
+    tournament: {
+      url: 'http://cheslie-tourney.azurewebsites.net',
+      app: {
+        name: 'cheslie-tourney'
       },
       port: process.env.PORT,
     }
